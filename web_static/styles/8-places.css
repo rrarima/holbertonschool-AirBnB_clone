@@ -1,34 +1,31 @@
 .places {
     width: 100%;
-    border: 0;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .places > h1 {
     font-size: 30px;
-    padding-left: 20px;
-    padding-top: 20px;
-    margin-bottom: 0px;
+    padding: 20px 20px 0;
+    margin-bottom: 0;
     flex: 0 1 100%;
 }
+
 .places > article {
     width: 390px;
-    padding: 20px 20px 20px 20px;
-    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    margin: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     position: relative;
 }
 
 .places > article > h2 {
     font-size: 30px;
-    margin: 0 0 0 0;
+    margin: 0;
     align-self: center;
 }
 
@@ -47,14 +44,13 @@
     top: 10px;
     right: 20px;
 }
+
 .price_by_night > p {
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 .information {
-    align-self: center;
     height: 80px;
-    width: 100%;
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
     margin-top: 30px;
@@ -69,42 +65,35 @@
 }
 
 .max_guest > p, .number_rooms > p, .number_bathrooms > p{
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto 0;
+}
+
+.guest_image, .bed_image, .bath_image {
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
 }
 
 .guest_image {
-    background: url("/holbertonschool-AirBnB_clone/web_static/images/icon_group.png") no-repeat center;
-    background-size: contain;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
-    width: 50px;
+    background-image: url("/holbertonschool-AirBnB_clone/web_static/images/icon_group.png");
 }
 
 .bed_image {
-    background: url("/holbertonschool-AirBnB_clone/web_static/images/icon_bed.png") no-repeat center;
-    background-size: contain;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
-    width: 50px;
+    background-image: url("/holbertonschool-AirBnB_clone/web_static/images/icon_bed.png");
 }
 
 .bath_image {
-    background: url("/holbertonschool-AirBnB_clone/web_static/images/icon_bath.png") no-repeat center;
-    background-size: contain;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
-    width: 50px;
+    background-image: url("/holbertonschool-AirBnB_clone/web_static/images/icon_bath.png");
 }
 
 .user > p {
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
+
 .description > p {
     margin-top: 7px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
